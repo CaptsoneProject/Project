@@ -1,0 +1,4 @@
+<additional>
+  <inductionLoop id="0" lane="4i_0" pos="470" freq="30" file="cross.out" friendlyPos="x"/>
+  <inductionLoop id="1" lane="1i_0" pos="475" freq="30" file="cross.out" friendlyPos="x"/>
+</additional>

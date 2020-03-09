@@ -1,0 +1,634 @@
+<routes>
+        <vType id="type_1" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+        <vType id="type_2" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="25" guiShape="bus"/>
+        <vType id="type_3" accel="0.8" decel="4.5" sigma="0.5" length="4" minGap="3" maxSpeed="25" guiShape="emergency"/>
+        <vType id="type_4" accel="0.8" decel="4.5" sigma="0.5" length="6" minGap="3" maxSpeed="25" guiShape="passenger/sedan"/>
+        <route id="right" edges="51o 1i 2o 52i" />
+        <route id="left" edges="52o 2i 1o 51i" />
+        <route id="down" edges="54o 4i 3o 53i" />
+        <route id="up" edges="53o 3i 4o 54i" />
+        <route id="mixed_1" edges="51o 1i 2o 52i 52o 2i 1o 51i" />
+        <route id="mixed_2" edges="54o 4i 3o 53i 53o 3i 4o 54i" />
+    <vehicle id="0" route="mixed_2" depart="0" />
+    <vehicle id="1" route="mixed_2" depart="2" />
+    <vehicle id="2" route="mixed_1" depart="3" />
+    <vehicle id="3" route="mixed_1" depart="4" />
+    <vehicle id="4" route="mixed_2" depart="6" />
+    <vehicle id="5" route="right" depart="13" color="1,0,0" />
+    <vehicle id="6" route="mixed_2" depart="22" />
+    <vehicle id="7" route="right" depart="29" />
+    <vehicle id="8" route="mixed_2" depart="31" />
+    <vehicle id="9" route="mixed_2" depart="33" />
+    <vehicle id="10" route="mixed_2" depart="41" />
+    <vehicle id="11" route="mixed_1" depart="42" />
+    <vehicle id="12" route="mixed_2" depart="45" />
+    <vehicle id="13" route="mixed_2" depart="53" />
+    <vehicle id="14" route="mixed_2" depart="85" />
+    <vehicle id="15" route="right" depart="89" />
+    <vehicle id="16" route="right" depart="96" />
+    <vehicle id="17" route="mixed_1" depart="99" />
+    <vehicle id="18" route="mixed_2" depart="99" color="1,0,0" />
+    <vehicle id="19" route="mixed_1" depart="108" />
+    <vehicle id="20" route="mixed_1" depart="114" />
+    <vehicle id="21" route="right" depart="122" />
+    <vehicle id="22" route="mixed_2" depart="131" />
+    <vehicle id="23" route="mixed_2" depart="135" />
+    <vehicle id="24" route="mixed_2" depart="138" />
+    <vehicle id="25" route="mixed_2" depart="142" />
+    <vehicle id="26" route="mixed_2" depart="153" />
+    <vehicle id="27" route="mixed_2" depart="156" />
+    <vehicle id="28" route="mixed_2" depart="160" />
+    <vehicle id="29" route="mixed_2" depart="164" color="1,0,0" />
+    <vehicle id="30" route="mixed_1" depart="167" color="1,0,0" />
+    <vehicle id="31" route="mixed_1" depart="168" />
+    <vehicle id="32" route="mixed_2" depart="169" color="1,0,0" />
+    <vehicle id="33" route="mixed_2" depart="172" />
+    <vehicle id="34" route="right" depart="172" />
+    <vehicle id="35" route="mixed_1" depart="176" color="1,0,0" />
+    <vehicle id="36" route="mixed_1" depart="181" />
+    <vehicle id="37" route="mixed_2" depart="194" color="1,0,0" />
+    <vehicle id="38" route="mixed_2" depart="196" />
+    <vehicle id="39" route="mixed_2" depart="199" color="1,0,0" />
+    <vehicle id="40" route="mixed_2" depart="212" />
+    <vehicle id="41" route="mixed_2" depart="219" color="1,0,0" />
+    <vehicle id="42" route="mixed_1" depart="228" />
+    <vehicle id="43" route="mixed_2" depart="234" color="1,0,0" />
+    <vehicle id="44" route="mixed_2" depart="238" />
+    <vehicle id="45" route="right" depart="238" />
+    <vehicle id="46" route="right" depart="242" />
+    <vehicle id="47" route="mixed_2" depart="272" />
+    <vehicle id="48" route="mixed_2" depart="275" />
+    <vehicle id="49" route="right" depart="283" />
+    <vehicle id="50" route="mixed_1" depart="294" />
+    <vehicle id="51" route="right" depart="302" />
+    <vehicle id="52" route="right" depart="318" />
+    <vehicle id="53" route="mixed_1" depart="322" />
+    <vehicle id="54" route="right" depart="331" />
+    <vehicle id="55" route="right" depart="337" />
+    <vehicle id="56" route="mixed_2" depart="339" color="1,0,0" />
+    <vehicle id="57" route="mixed_1" depart="342" />
+    <vehicle id="58" route="mixed_2" depart="344" color="1,0,0" />
+    <vehicle id="59" route="right" depart="344" />
+    <vehicle id="60" route="mixed_2" depart="346" />
+    <vehicle id="61" route="right" depart="349" color="1,0,0" />
+    <vehicle id="62" route="mixed_1" depart="375" />
+    <vehicle id="63" route="right" depart="377" color="1,0,0" />
+    <vehicle id="64" route="right" depart="379" />
+    <vehicle id="65" route="mixed_2" depart="388" />
+    <vehicle id="66" route="mixed_2" depart="389" color="1,0,0" />
+    <vehicle id="67" route="mixed_2" depart="391" />
+    <vehicle id="68" route="right" depart="394" />
+    <vehicle id="69" route="mixed_1" depart="395" color="1,0,0" />
+    <vehicle id="70" route="right" depart="397" />
+    <vehicle id="71" route="mixed_2" depart="413" />
+    <vehicle id="72" route="mixed_2" depart="415" />
+    <vehicle id="73" route="mixed_2" depart="420" />
+    <vehicle id="74" route="right" depart="440" color="1,0,0" />
+    <vehicle id="75" route="right" depart="457" />
+    <vehicle id="76" route="right" depart="459" />
+    <vehicle id="77" route="right" depart="463" />
+    <vehicle id="78" route="mixed_2" depart="469" color="1,0,0" />
+    <vehicle id="79" route="mixed_2" depart="472" />
+    <vehicle id="80" route="mixed_2" depart="476" />
+    <vehicle id="81" route="mixed_2" depart="483" />
+    <vehicle id="82" route="mixed_2" depart="492" />
+    <vehicle id="83" route="mixed_2" depart="496" />
+    <vehicle id="84" route="right" depart="501" />
+    <vehicle id="85" route="mixed_2" depart="514" color="1,0,0" />
+    <vehicle id="86" route="right" depart="518" />
+    <vehicle id="87" route="mixed_2" depart="527" />
+    <vehicle id="88" route="mixed_1" depart="536" color="1,0,0" />
+    <vehicle id="89" route="mixed_2" depart="536" />
+    <vehicle id="90" route="mixed_2" depart="541" />
+    <vehicle id="91" route="mixed_2" depart="552" />
+    <vehicle id="92" route="mixed_2" depart="554" color="1,0,0" />
+    <vehicle id="93" route="right" depart="573" color="1,0,0" />
+    <vehicle id="94" route="mixed_2" depart="578" />
+    <vehicle id="95" route="mixed_2" depart="579" color="1,0,0" />
+    <vehicle id="96" route="mixed_2" depart="582" />
+    <vehicle id="97" route="mixed_2" depart="602" />
+    <vehicle id="98" route="mixed_2" depart="606" />
+    <vehicle id="99" route="mixed_1" depart="612" />
+    <vehicle id="100" route="right" depart="624" />
+    <vehicle id="101" route="mixed_2" depart="634" color="1,0,0" />
+    <vehicle id="102" route="mixed_2" depart="635" />
+    <vehicle id="103" route="mixed_2" depart="641" />
+    <vehicle id="104" route="mixed_2" depart="646" />
+    <vehicle id="105" route="right" depart="653" />
+    <vehicle id="106" route="mixed_1" depart="654" />
+    <vehicle id="107" route="mixed_2" depart="659" color="1,0,0" />
+    <vehicle id="108" route="mixed_2" depart="660" />
+    <vehicle id="109" route="mixed_2" depart="661" />
+    <vehicle id="110" route="mixed_2" depart="663" />
+    <vehicle id="111" route="mixed_2" depart="683" />
+    <vehicle id="112" route="mixed_1" depart="701" color="1,0,0" />
+    <vehicle id="113" route="mixed_1" depart="704" color="1,0,0" />
+    <vehicle id="114" route="right" depart="706" color="1,0,0" />
+    <vehicle id="115" route="mixed_2" depart="707" />
+    <vehicle id="116" route="right" depart="708" />
+    <vehicle id="117" route="mixed_2" depart="717" />
+    <vehicle id="118" route="right" depart="717" />
+    <vehicle id="119" route="right" depart="720" color="1,0,0" />
+    <vehicle id="120" route="mixed_2" depart="722" />
+    <vehicle id="121" route="mixed_1" depart="724" />
+    <vehicle id="122" route="right" depart="733" />
+    <vehicle id="123" route="mixed_2" depart="740" />
+    <vehicle id="124" route="mixed_2" depart="743" />
+    <vehicle id="125" route="mixed_2" depart="749" color="1,0,0" />
+    <vehicle id="126" route="mixed_2" depart="768" />
+    <vehicle id="127" route="mixed_2" depart="774" color="1,0,0" />
+    <vehicle id="128" route="right" depart="776" color="1,0,0" />
+    <vehicle id="129" route="right" depart="780" />
+    <vehicle id="130" route="right" depart="791" />
+    <vehicle id="131" route="mixed_2" depart="801" />
+    <vehicle id="132" route="right" depart="808" />
+    <vehicle id="133" route="mixed_2" depart="812" />
+    <vehicle id="134" route="right" depart="817" />
+    <vehicle id="135" route="right" depart="838" />
+    <vehicle id="136" route="mixed_2" depart="845" />
+    <vehicle id="137" route="right" depart="847" />
+    <vehicle id="138" route="mixed_2" depart="854" color="1,0,0" />
+    <vehicle id="139" route="mixed_1" depart="856" />
+    <vehicle id="140" route="mixed_2" depart="862" />
+    <vehicle id="141" route="mixed_2" depart="865" />
+    <vehicle id="142" route="mixed_2" depart="868" />
+    <vehicle id="143" route="mixed_1" depart="879" />
+    <vehicle id="144" route="mixed_2" depart="879" color="1,0,0" />
+    <vehicle id="145" route="mixed_1" depart="880" />
+    <vehicle id="146" route="mixed_2" depart="880" />
+    <vehicle id="147" route="mixed_2" depart="888" />
+    <vehicle id="148" route="right" depart="895" color="1,0,0" />
+    <vehicle id="149" route="right" depart="901" />
+    <vehicle id="150" route="right" depart="911" />
+    <vehicle id="151" route="mixed_1" depart="916" />
+    <vehicle id="152" route="mixed_2" depart="918" />
+    <vehicle id="153" route="mixed_2" depart="924" color="1,0,0" />
+    <vehicle id="154" route="right" depart="935" />
+    <vehicle id="155" route="mixed_1" depart="939" />
+    <vehicle id="156" route="right" depart="941" />
+    <vehicle id="157" route="mixed_2" depart="945" />
+    <vehicle id="158" route="mixed_1" depart="950" color="1,0,0" />
+    <vehicle id="159" route="mixed_2" depart="952" />
+    <vehicle id="160" route="mixed_2" depart="954" color="1,0,0" />
+    <vehicle id="161" route="mixed_2" depart="965" />
+    <vehicle id="162" route="right" depart="969" />
+    <vehicle id="163" route="mixed_2" depart="973" />
+    <vehicle id="164" route="right" depart="974" />
+    <vehicle id="165" route="mixed_2" depart="977" />
+    <vehicle id="166" route="mixed_1" depart="989" color="1,0,0" />
+    <vehicle id="167" route="mixed_2" depart="993" />
+    <vehicle id="168" route="right" depart="996" />
+    <vehicle id="169" route="mixed_2" depart="1001" />
+    <vehicle id="170" route="mixed_2" depart="1006" />
+    <vehicle id="171" route="mixed_2" depart="1014" color="1,0,0" />
+    <vehicle id="172" route="mixed_2" depart="1015" />
+    <vehicle id="173" route="mixed_2" depart="1026" />
+    <vehicle id="174" route="mixed_2" depart="1034" color="1,0,0" />
+    <vehicle id="175" route="mixed_1" depart="1043" color="1,0,0" />
+    <vehicle id="176" route="right" depart="1044" />
+    <vehicle id="177" route="mixed_1" depart="1047" />
+    <vehicle id="178" route="right" depart="1056" color="1,0,0" />
+    <vehicle id="179" route="mixed_1" depart="1061" color="1,0,0" />
+    <vehicle id="180" route="mixed_1" depart="1068" />
+    <vehicle id="181" route="mixed_1" depart="1069" />
+    <vehicle id="182" route="mixed_2" depart="1070" />
+    <vehicle id="183" route="mixed_2" depart="1085" />
+    <vehicle id="184" route="mixed_2" depart="1097" />
+    <vehicle id="185" route="mixed_2" depart="1099" color="1,0,0" />
+    <vehicle id="186" route="mixed_2" depart="1104" color="1,0,0" />
+    <vehicle id="187" route="right" depart="1108" />
+    <vehicle id="188" route="right" depart="1109" />
+    <vehicle id="189" route="right" depart="1121" />
+    <vehicle id="190" route="mixed_2" depart="1124" color="1,0,0" />
+    <vehicle id="191" route="right" depart="1133" color="1,0,0" />
+    <vehicle id="192" route="mixed_2" depart="1135" />
+    <vehicle id="193" route="mixed_2" depart="1137" />
+    <vehicle id="194" route="mixed_1" depart="1141" />
+    <vehicle id="195" route="mixed_2" depart="1143" />
+    <vehicle id="196" route="mixed_2" depart="1150" />
+    <vehicle id="197" route="right" depart="1153" />
+    <vehicle id="198" route="mixed_2" depart="1156" />
+    <vehicle id="199" route="mixed_2" depart="1172" />
+    <vehicle id="200" route="mixed_2" depart="1181" />
+    <vehicle id="201" route="right" depart="1189" color="1,0,0" />
+    <vehicle id="202" route="mixed_1" depart="1208" color="1,0,0" />
+    <vehicle id="203" route="mixed_1" depart="1212" />
+    <vehicle id="204" route="mixed_2" depart="1218" />
+    <vehicle id="205" route="mixed_2" depart="1232" />
+    <vehicle id="206" route="mixed_2" depart="1237" />
+    <vehicle id="207" route="right" depart="1243" />
+    <vehicle id="208" route="mixed_2" depart="1246" />
+    <vehicle id="209" route="mixed_2" depart="1252" />
+    <vehicle id="210" route="mixed_2" depart="1255" />
+    <vehicle id="211" route="mixed_1" depart="1267" />
+    <vehicle id="212" route="mixed_2" depart="1281" />
+    <vehicle id="213" route="mixed_2" depart="1288" />
+    <vehicle id="214" route="mixed_1" depart="1289" color="1,0,0" />
+    <vehicle id="215" route="right" depart="1289" />
+    <vehicle id="216" route="mixed_2" depart="1301" />
+    <vehicle id="217" route="right" depart="1317" />
+    <vehicle id="218" route="mixed_2" depart="1319" color="1,0,0" />
+    <vehicle id="219" route="mixed_1" depart="1322" color="1,0,0" />
+    <vehicle id="220" route="mixed_2" depart="1323" />
+    <vehicle id="221" route="mixed_2" depart="1332" />
+    <vehicle id="222" route="right" depart="1336" color="1,0,0" />
+    <vehicle id="223" route="mixed_2" depart="1344" color="1,0,0" />
+    <vehicle id="224" route="mixed_1" depart="1357" />
+    <vehicle id="225" route="mixed_2" depart="1359" color="1,0,0" />
+    <vehicle id="226" route="right" depart="1359" />
+    <vehicle id="227" route="right" depart="1364" color="1,0,0" />
+    <vehicle id="228" route="mixed_2" depart="1366" />
+    <vehicle id="229" route="mixed_1" depart="1367" color="1,0,0" />
+    <vehicle id="230" route="mixed_2" depart="1370" />
+    <vehicle id="231" route="right" depart="1380" />
+    <vehicle id="232" route="mixed_2" depart="1381" />
+    <vehicle id="233" route="mixed_1" depart="1384" />
+    <vehicle id="234" route="mixed_2" depart="1394" color="1,0,0" />
+    <vehicle id="235" route="right" depart="1402" />
+    <vehicle id="236" route="mixed_1" depart="1420" />
+    <vehicle id="237" route="mixed_1" depart="1433" color="1,0,0" />
+    <vehicle id="238" route="right" depart="1436" />
+    <vehicle id="239" route="mixed_2" depart="1441" />
+    <vehicle id="240" route="mixed_1" depart="1450" />
+    <vehicle id="241" route="right" depart="1451" />
+    <vehicle id="242" route="mixed_1" depart="1453" />
+    <vehicle id="243" route="mixed_2" depart="1454" color="1,0,0" />
+    <vehicle id="244" route="right" depart="1463" />
+    <vehicle id="245" route="mixed_2" depart="1470" />
+    <vehicle id="246" route="mixed_1" depart="1475" color="1,0,0" />
+    <vehicle id="247" route="mixed_2" depart="1478" />
+    <vehicle id="248" route="right" depart="1483" color="1,0,0" />
+    <vehicle id="249" route="mixed_2" depart="1497" />
+    <vehicle id="250" route="mixed_1" depart="1499" color="1,0,0" />
+    <vehicle id="251" route="mixed_2" depart="1500" />
+    <vehicle id="252" route="mixed_2" depart="1512" />
+    <vehicle id="253" route="right" depart="1515" />
+    <vehicle id="254" route="right" depart="1533" />
+    <vehicle id="255" route="mixed_2" depart="1536" />
+    <vehicle id="256" route="mixed_2" depart="1547" />
+    <vehicle id="257" route="right" depart="1548" />
+    <vehicle id="258" route="mixed_2" depart="1550" />
+    <vehicle id="259" route="mixed_2" depart="1554" color="1,0,0" />
+    <vehicle id="260" route="mixed_2" depart="1560" />
+    <vehicle id="261" route="mixed_2" depart="1562" />
+    <vehicle id="262" route="right" depart="1564" />
+    <vehicle id="263" route="right" depart="1568" />
+    <vehicle id="264" route="mixed_1" depart="1570" />
+    <vehicle id="265" route="mixed_2" depart="1573" />
+    <vehicle id="266" route="mixed_2" depart="1574" color="1,0,0" />
+    <vehicle id="267" route="right" depart="1576" />
+    <vehicle id="268" route="right" depart="1578" />
+    <vehicle id="269" route="mixed_2" depart="1583" />
+    <vehicle id="270" route="mixed_1" depart="1589" color="1,0,0" />
+    <vehicle id="271" route="mixed_1" depart="1612" />
+    <vehicle id="272" route="right" depart="1612" />
+    <vehicle id="273" route="right" depart="1617" />
+    <vehicle id="274" route="right" depart="1624" />
+    <vehicle id="275" route="mixed_2" depart="1627" />
+    <vehicle id="276" route="right" depart="1645" />
+    <vehicle id="277" route="mixed_1" depart="1651" />
+    <vehicle id="278" route="mixed_2" depart="1658" />
+    <vehicle id="279" route="right" depart="1669" />
+    <vehicle id="280" route="mixed_1" depart="1670" color="1,0,0" />
+    <vehicle id="281" route="mixed_2" depart="1673" />
+    <vehicle id="282" route="right" depart="1675" />
+    <vehicle id="283" route="mixed_2" depart="1677" />
+    <vehicle id="284" route="right" depart="1686" color="1,0,0" />
+    <vehicle id="285" route="mixed_2" depart="1690" />
+    <vehicle id="286" route="right" depart="1694" />
+    <vehicle id="287" route="right" depart="1700" color="1,0,0" />
+    <vehicle id="288" route="right" depart="1702" />
+    <vehicle id="289" route="right" depart="1707" color="1,0,0" />
+    <vehicle id="290" route="mixed_2" depart="1725" />
+    <vehicle id="291" route="mixed_2" depart="1735" />
+    <vehicle id="292" route="right" depart="1742" color="1,0,0" />
+    <vehicle id="293" route="mixed_2" depart="1748" />
+    <vehicle id="294" route="mixed_2" depart="1758" />
+    <vehicle id="295" route="right" depart="1758" />
+    <vehicle id="296" route="mixed_2" depart="1760" />
+    <vehicle id="297" route="mixed_2" depart="1771" />
+    <vehicle id="298" route="mixed_2" depart="1773" />
+    <vehicle id="299" route="mixed_2" depart="1778" />
+    <vehicle id="300" route="mixed_1" depart="1785" />
+    <vehicle id="301" route="mixed_2" depart="1789" color="1,0,0" />
+    <vehicle id="302" route="mixed_2" depart="1798" />
+    <vehicle id="303" route="mixed_2" depart="1800" />
+    <vehicle id="304" route="mixed_1" depart="1808" color="1,0,0" />
+    <vehicle id="305" route="mixed_2" depart="1810" />
+    <vehicle id="306" route="mixed_2" depart="1826" />
+    <vehicle id="307" route="mixed_2" depart="1833" />
+    <vehicle id="308" route="right" depart="1839" />
+    <vehicle id="309" route="mixed_1" depart="1847" color="1,0,0" />
+    <vehicle id="310" route="mixed_2" depart="1847" />
+    <vehicle id="311" route="mixed_2" depart="1851" />
+    <vehicle id="312" route="mixed_2" depart="1854" color="1,0,0" />
+    <vehicle id="313" route="right" depart="1866" />
+    <vehicle id="314" route="mixed_2" depart="1867" />
+    <vehicle id="315" route="mixed_2" depart="1872" />
+    <vehicle id="316" route="right" depart="1874" />
+    <vehicle id="317" route="mixed_2" depart="1883" />
+    <vehicle id="318" route="mixed_1" depart="1905" />
+    <vehicle id="319" route="right" depart="1905" />
+    <vehicle id="320" route="right" depart="1906" />
+    <vehicle id="321" route="mixed_2" depart="1909" color="1,0,0" />
+    <vehicle id="322" route="mixed_2" depart="1911" />
+    <vehicle id="323" route="mixed_2" depart="1913" />
+    <vehicle id="324" route="right" depart="1917" color="1,0,0" />
+    <vehicle id="325" route="mixed_2" depart="1924" color="1,0,0" />
+    <vehicle id="326" route="mixed_2" depart="1953" />
+    <vehicle id="327" route="mixed_2" depart="1955" />
+    <vehicle id="328" route="right" depart="1959" color="1,0,0" />
+    <vehicle id="329" route="right" depart="1969" />
+    <vehicle id="330" route="mixed_2" depart="1976" />
+    <vehicle id="331" route="mixed_2" depart="1980" />
+    <vehicle id="332" route="right" depart="1986" />
+    <vehicle id="333" route="right" depart="1988" />
+    <vehicle id="334" route="mixed_1" depart="1989" />
+    <vehicle id="335" route="mixed_1" depart="2007" />
+    <vehicle id="336" route="mixed_2" depart="2013" />
+    <vehicle id="337" route="mixed_2" depart="2017" />
+    <vehicle id="338" route="mixed_2" depart="2023" />
+    <vehicle id="339" route="mixed_2" depart="2024" color="1,0,0" />
+    <vehicle id="340" route="mixed_2" depart="2027" />
+    <vehicle id="341" route="mixed_2" depart="2031" />
+    <vehicle id="342" route="right" depart="2040" />
+    <vehicle id="343" route="mixed_2" depart="2050" />
+    <vehicle id="344" route="mixed_2" depart="2059" color="1,0,0" />
+    <vehicle id="345" route="mixed_2" depart="2062" />
+    <vehicle id="346" route="mixed_2" depart="2066" />
+    <vehicle id="347" route="right" depart="2068" />
+    <vehicle id="348" route="right" depart="2076" />
+    <vehicle id="349" route="mixed_2" depart="2078" />
+    <vehicle id="350" route="mixed_2" depart="2082" />
+    <vehicle id="351" route="mixed_2" depart="2083" />
+    <vehicle id="352" route="mixed_2" depart="2101" />
+    <vehicle id="353" route="mixed_2" depart="2109" color="1,0,0" />
+    <vehicle id="354" route="right" depart="2114" />
+    <vehicle id="355" route="mixed_1" depart="2118" />
+    <vehicle id="356" route="mixed_2" depart="2134" color="1,0,0" />
+    <vehicle id="357" route="mixed_1" depart="2145" />
+    <vehicle id="358" route="mixed_1" depart="2151" />
+    <vehicle id="359" route="mixed_2" depart="2151" />
+    <vehicle id="360" route="mixed_2" depart="2176" />
+    <vehicle id="361" route="right" depart="2182" />
+    <vehicle id="362" route="right" depart="2188" />
+    <vehicle id="363" route="mixed_2" depart="2195" />
+    <vehicle id="364" route="mixed_2" depart="2196" />
+    <vehicle id="365" route="mixed_2" depart="2198" />
+    <vehicle id="366" route="mixed_2" depart="2205" />
+    <vehicle id="367" route="right" depart="2206" />
+    <vehicle id="368" route="mixed_2" depart="2209" color="1,0,0" />
+    <vehicle id="369" route="mixed_2" depart="2211" />
+    <vehicle id="370" route="right" depart="2214" />
+    <vehicle id="371" route="mixed_2" depart="2218" />
+    <vehicle id="372" route="mixed_2" depart="2227" />
+    <vehicle id="373" route="right" depart="2233" />
+    <vehicle id="374" route="mixed_2" depart="2234" color="1,0,0" />
+    <vehicle id="375" route="mixed_2" depart="2239" color="1,0,0" />
+    <vehicle id="376" route="mixed_1" depart="2245" />
+    <vehicle id="377" route="right" depart="2250" />
+    <vehicle id="378" route="mixed_2" depart="2251" />
+    <vehicle id="379" route="right" depart="2255" />
+    <vehicle id="380" route="mixed_2" depart="2259" color="1,0,0" />
+    <vehicle id="381" route="right" depart="2259" />
+    <vehicle id="382" route="mixed_2" depart="2266" />
+    <vehicle id="383" route="mixed_1" depart="2269" />
+    <vehicle id="384" route="mixed_2" depart="2280" />
+    <vehicle id="385" route="mixed_2" depart="2282" />
+    <vehicle id="386" route="mixed_2" depart="2285" />
+    <vehicle id="387" route="mixed_2" depart="2291" />
+    <vehicle id="388" route="mixed_1" depart="2304" />
+    <vehicle id="389" route="right" depart="2304" />
+    <vehicle id="390" route="right" depart="2312" />
+    <vehicle id="391" route="mixed_1" depart="2318" color="1,0,0" />
+    <vehicle id="392" route="mixed_1" depart="2322" />
+    <vehicle id="393" route="mixed_2" depart="2347" />
+    <vehicle id="394" route="mixed_2" depart="2350" />
+    <vehicle id="395" route="mixed_2" depart="2365" />
+    <vehicle id="396" route="mixed_1" depart="2368" />
+    <vehicle id="397" route="right" depart="2371" />
+    <vehicle id="398" route="mixed_2" depart="2375" />
+    <vehicle id="399" route="mixed_2" depart="2377" />
+    <vehicle id="400" route="mixed_2" depart="2391" />
+    <vehicle id="401" route="mixed_1" depart="2393" color="1,0,0" />
+    <vehicle id="402" route="mixed_2" depart="2396" />
+    <vehicle id="403" route="mixed_1" depart="2404" />
+    <vehicle id="404" route="mixed_1" depart="2405" color="1,0,0" />
+    <vehicle id="405" route="mixed_1" depart="2409" />
+    <vehicle id="406" route="right" depart="2412" />
+    <vehicle id="407" route="mixed_2" depart="2414" color="1,0,0" />
+    <vehicle id="408" route="mixed_2" depart="2429" color="1,0,0" />
+    <vehicle id="409" route="mixed_1" depart="2434" />
+    <vehicle id="410" route="mixed_2" depart="2435" />
+    <vehicle id="411" route="mixed_2" depart="2445" />
+    <vehicle id="412" route="mixed_2" depart="2446" />
+    <vehicle id="413" route="mixed_2" depart="2448" />
+    <vehicle id="414" route="right" depart="2451" />
+    <vehicle id="415" route="right" depart="2463" color="1,0,0" />
+    <vehicle id="416" route="right" depart="2472" />
+    <vehicle id="417" route="mixed_2" depart="2477" />
+    <vehicle id="418" route="mixed_2" depart="2479" color="1,0,0" />
+    <vehicle id="419" route="right" depart="2479" />
+    <vehicle id="420" route="mixed_2" depart="2482" />
+    <vehicle id="421" route="mixed_2" depart="2483" />
+    <vehicle id="422" route="mixed_2" depart="2488" />
+    <vehicle id="423" route="right" depart="2491" color="1,0,0" />
+    <vehicle id="424" route="mixed_2" depart="2502" />
+    <vehicle id="425" route="mixed_2" depart="2506" />
+    <vehicle id="426" route="mixed_2" depart="2514" color="1,0,0" />
+    <vehicle id="427" route="mixed_1" depart="2519" color="1,0,0" />
+    <vehicle id="428" route="mixed_1" depart="2530" />
+    <vehicle id="429" route="mixed_2" depart="2533" />
+    <vehicle id="430" route="right" depart="2540" color="1,0,0" />
+    <vehicle id="431" route="right" depart="2551" />
+    <vehicle id="432" route="mixed_2" depart="2552" />
+    <vehicle id="433" route="mixed_2" depart="2568" />
+    <vehicle id="434" route="right" depart="2570" />
+    <vehicle id="435" route="mixed_2" depart="2575" />
+    <vehicle id="436" route="mixed_1" depart="2579" color="1,0,0" />
+    <vehicle id="437" route="mixed_1" depart="2583" />
+    <vehicle id="438" route="mixed_2" depart="2594" color="1,0,0" />
+    <vehicle id="439" route="mixed_2" depart="2608" />
+    <vehicle id="440" route="mixed_1" depart="2610" />
+    <vehicle id="441" route="mixed_2" depart="2614" color="1,0,0" />
+    <vehicle id="442" route="mixed_1" depart="2619" />
+    <vehicle id="443" route="mixed_2" depart="2630" />
+    <vehicle id="444" route="mixed_2" depart="2636" />
+    <vehicle id="445" route="mixed_2" depart="2640" />
+    <vehicle id="446" route="mixed_1" depart="2646" />
+    <vehicle id="447" route="mixed_2" depart="2650" />
+    <vehicle id="448" route="right" depart="2660" />
+    <vehicle id="449" route="mixed_2" depart="2672" />
+    <vehicle id="450" route="mixed_1" depart="2674" />
+    <vehicle id="451" route="right" depart="2686" />
+    <vehicle id="452" route="mixed_2" depart="2687" />
+    <vehicle id="453" route="mixed_2" depart="2699" color="1,0,0" />
+    <vehicle id="454" route="mixed_2" depart="2704" color="1,0,0" />
+    <vehicle id="455" route="mixed_2" depart="2710" />
+    <vehicle id="456" route="mixed_2" depart="2713" />
+    <vehicle id="457" route="right" depart="2739" />
+    <vehicle id="458" route="mixed_2" depart="2746" />
+    <vehicle id="459" route="mixed_2" depart="2753" />
+    <vehicle id="460" route="mixed_2" depart="2757" />
+    <vehicle id="461" route="mixed_1" depart="2759" color="1,0,0" />
+    <vehicle id="462" route="mixed_1" depart="2767" />
+    <vehicle id="463" route="mixed_2" depart="2769" color="1,0,0" />
+    <vehicle id="464" route="mixed_2" depart="2781" />
+    <vehicle id="465" route="right" depart="2785" color="1,0,0" />
+    <vehicle id="466" route="mixed_2" depart="2786" />
+    <vehicle id="467" route="mixed_1" depart="2790" />
+    <vehicle id="468" route="mixed_2" depart="2799" color="1,0,0" />
+    <vehicle id="469" route="mixed_2" depart="2801" />
+    <vehicle id="470" route="mixed_2" depart="2808" />
+    <vehicle id="471" route="mixed_2" depart="2821" />
+    <vehicle id="472" route="mixed_1" depart="2829" />
+    <vehicle id="473" route="right" depart="2831" />
+    <vehicle id="474" route="mixed_2" depart="2841" />
+    <vehicle id="475" route="right" depart="2848" color="1,0,0" />
+    <vehicle id="476" route="right" depart="2859" />
+    <vehicle id="477" route="right" depart="2866" />
+    <vehicle id="478" route="mixed_2" depart="2867" />
+    <vehicle id="479" route="mixed_1" depart="2871" />
+    <vehicle id="480" route="mixed_2" depart="2878" />
+    <vehicle id="481" route="right" depart="2880" />
+    <vehicle id="482" route="mixed_1" depart="2886" />
+    <vehicle id="483" route="mixed_2" depart="2887" />
+    <vehicle id="484" route="right" depart="2897" color="1,0,0" />
+    <vehicle id="485" route="mixed_1" depart="2901" />
+    <vehicle id="486" route="mixed_2" depart="2902" />
+    <vehicle id="487" route="mixed_1" depart="2917" />
+    <vehicle id="488" route="mixed_2" depart="2922" />
+    <vehicle id="489" route="right" depart="2923" />
+    <vehicle id="490" route="mixed_2" depart="2924" color="1,0,0" />
+    <vehicle id="491" route="mixed_2" depart="2925" />
+    <vehicle id="492" route="right" depart="2933" />
+    <vehicle id="493" route="mixed_1" depart="2946" />
+    <vehicle id="494" route="mixed_2" depart="2950" />
+    <vehicle id="495" route="mixed_1" depart="2959" />
+    <vehicle id="496" route="right" depart="2959" />
+    <vehicle id="497" route="right" depart="2966" />
+    <vehicle id="498" route="mixed_2" depart="2968" />
+    <vehicle id="499" route="mixed_2" depart="2969" color="1,0,0" />
+    <vehicle id="500" route="mixed_2" depart="2970" />
+    <vehicle id="501" route="right" depart="2975" />
+    <vehicle id="502" route="right" depart="2976" />
+    <vehicle id="503" route="mixed_2" depart="2987" />
+    <vehicle id="504" route="mixed_2" depart="2988" />
+    <vehicle id="505" route="mixed_2" depart="2989" color="1,0,0" />
+    <vehicle id="506" route="mixed_2" depart="2991" />
+    <vehicle id="507" route="mixed_2" depart="2993" />
+    <vehicle id="508" route="mixed_2" depart="2994" color="1,0,0" />
+    <vehicle id="509" route="mixed_2" depart="3015" />
+    <vehicle id="510" route="mixed_1" depart="3019" />
+    <vehicle id="511" route="right" depart="3025" />
+    <vehicle id="512" route="mixed_2" depart="3027" />
+    <vehicle id="513" route="mixed_2" depart="3034" color="1,0,0" />
+    <vehicle id="514" route="mixed_1" depart="3036" />
+    <vehicle id="515" route="mixed_2" depart="3038" />
+    <vehicle id="516" route="mixed_2" depart="3040" />
+    <vehicle id="517" route="mixed_2" depart="3048" />
+    <vehicle id="518" route="mixed_2" depart="3049" color="1,0,0" />
+    <vehicle id="519" route="mixed_1" depart="3055" />
+    <vehicle id="520" route="right" depart="3060" />
+    <vehicle id="521" route="mixed_2" depart="3061" />
+    <vehicle id="522" route="mixed_1" depart="3074" color="1,0,0" />
+    <vehicle id="523" route="mixed_1" depart="3079" />
+    <vehicle id="524" route="mixed_1" depart="3083" color="1,0,0" />
+    <vehicle id="525" route="right" depart="3095" />
+    <vehicle id="526" route="right" depart="3107" color="1,0,0" />
+    <vehicle id="527" route="mixed_1" depart="3111" />
+    <vehicle id="528" route="mixed_2" depart="3112" />
+    <vehicle id="529" route="right" depart="3115" />
+    <vehicle id="530" route="mixed_1" depart="3116" color="1,0,0" />
+    <vehicle id="531" route="right" depart="3130" />
+    <vehicle id="532" route="mixed_2" depart="3133" />
+    <vehicle id="533" route="mixed_1" depart="3137" color="1,0,0" />
+    <vehicle id="534" route="mixed_2" depart="3150" />
+    <vehicle id="535" route="mixed_1" depart="3157" />
+    <vehicle id="536" route="mixed_2" depart="3157" />
+    <vehicle id="537" route="right" depart="3157" />
+    <vehicle id="538" route="mixed_2" depart="3163" />
+    <vehicle id="539" route="mixed_2" depart="3174" color="1,0,0" />
+    <vehicle id="540" route="right" depart="3174" />
+    <vehicle id="541" route="right" depart="3185" />
+    <vehicle id="542" route="mixed_2" depart="3187" />
+    <vehicle id="543" route="mixed_2" depart="3194" color="1,0,0" />
+    <vehicle id="544" route="right" depart="3194" />
+    <vehicle id="545" route="mixed_2" depart="3195" />
+    <vehicle id="546" route="mixed_2" depart="3203" />
+    <vehicle id="547" route="right" depart="3204" />
+    <vehicle id="548" route="mixed_2" depart="3206" />
+    <vehicle id="549" route="right" depart="3214" />
+    <vehicle id="550" route="mixed_2" depart="3218" />
+    <vehicle id="551" route="right" depart="3227" />
+    <vehicle id="552" route="mixed_2" depart="3234" color="1,0,0" />
+    <vehicle id="553" route="right" depart="3234" />
+    <vehicle id="554" route="mixed_1" depart="3237" />
+    <vehicle id="555" route="mixed_2" depart="3241" />
+    <vehicle id="556" route="mixed_2" depart="3248" />
+    <vehicle id="557" route="right" depart="3253" />
+    <vehicle id="558" route="mixed_1" depart="3259" />
+    <vehicle id="559" route="mixed_2" depart="3260" />
+    <vehicle id="560" route="mixed_2" depart="3263" />
+    <vehicle id="561" route="mixed_2" depart="3268" />
+    <vehicle id="562" route="right" depart="3269" />
+    <vehicle id="563" route="mixed_2" depart="3272" />
+    <vehicle id="564" route="mixed_2" depart="3282" />
+    <vehicle id="565" route="mixed_2" depart="3283" />
+    <vehicle id="566" route="mixed_2" depart="3289" color="1,0,0" />
+    <vehicle id="567" route="mixed_2" depart="3314" color="1,0,0" />
+    <vehicle id="568" route="mixed_1" depart="3329" color="1,0,0" />
+    <vehicle id="569" route="right" depart="3334" />
+    <vehicle id="570" route="mixed_2" depart="3336" />
+    <vehicle id="571" route="right" depart="3337" />
+    <vehicle id="572" route="mixed_1" depart="3338" color="1,0,0" />
+    <vehicle id="573" route="mixed_2" depart="3340" />
+    <vehicle id="574" route="mixed_2" depart="3343" />
+    <vehicle id="575" route="mixed_2" depart="3347" />
+    <vehicle id="576" route="mixed_2" depart="3350" />
+    <vehicle id="577" route="mixed_2" depart="3351" />
+    <vehicle id="578" route="mixed_2" depart="3352" />
+    <vehicle id="579" route="mixed_2" depart="3367" />
+    <vehicle id="580" route="right" depart="3370" />
+    <vehicle id="581" route="mixed_2" depart="3373" />
+    <vehicle id="582" route="mixed_2" depart="3383" />
+    <vehicle id="583" route="mixed_2" depart="3384" color="1,0,0" />
+    <vehicle id="584" route="right" depart="3396" />
+    <vehicle id="585" route="mixed_2" depart="3397" />
+    <vehicle id="586" route="right" depart="3398" />
+    <vehicle id="587" route="mixed_2" depart="3399" color="1,0,0" />
+    <vehicle id="588" route="mixed_2" depart="3409" color="1,0,0" />
+    <vehicle id="589" route="mixed_2" depart="3410" />
+    <vehicle id="590" route="right" depart="3413" />
+    <vehicle id="591" route="mixed_2" depart="3415" />
+    <vehicle id="592" route="mixed_2" depart="3433" />
+    <vehicle id="593" route="right" depart="3435" />
+    <vehicle id="594" route="right" depart="3441" />
+    <vehicle id="595" route="mixed_2" depart="3446" />
+    <vehicle id="596" route="mixed_2" depart="3461" />
+    <vehicle id="597" route="mixed_1" depart="3463" />
+    <vehicle id="598" route="right" depart="3463" />
+    <vehicle id="599" route="mixed_2" depart="3476" />
+    <vehicle id="600" route="mixed_1" depart="3477" />
+    <vehicle id="601" route="mixed_1" depart="3482" color="1,0,0" />
+    <vehicle id="602" route="mixed_2" depart="3482" />
+    <vehicle id="603" route="mixed_2" depart="3504" color="1,0,0" />
+    <vehicle id="604" route="mixed_2" depart="3505" />
+    <vehicle id="605" route="right" depart="3511" />
+    <vehicle id="606" route="mixed_1" depart="3512" color="1,0,0" />
+    <vehicle id="607" route="mixed_2" depart="3519" color="1,0,0" />
+    <vehicle id="608" route="mixed_1" depart="3523" />
+    <vehicle id="609" route="right" depart="3527" color="1,0,0" />
+    <vehicle id="610" route="mixed_2" depart="3539" color="1,0,0" />
+    <vehicle id="611" route="mixed_2" depart="3543" />
+    <vehicle id="612" route="right" depart="3546" />
+    <vehicle id="613" route="mixed_2" depart="3557" />
+    <vehicle id="614" route="mixed_2" depart="3558" />
+    <vehicle id="615" route="mixed_1" depart="3585" />
+    <vehicle id="616" route="mixed_1" depart="3589" />
+    <vehicle id="617" route="mixed_1" depart="3590" color="1,0,0" />
+    <vehicle id="618" route="mixed_2" depart="3592" />
+    <vehicle id="619" route="mixed_2" depart="3593" />
+    <vehicle id="620" route="mixed_2" depart="3598" />
+    <vehicle id="621" route="right" depart="3598" />
+</routes>
